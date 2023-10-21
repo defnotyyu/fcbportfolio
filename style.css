@@ -1,0 +1,37 @@
+/*Ctrl + / for comment*/
+
+/*
+	Syntax for CSS
+	selector {
+		property: value;
+	}
+*/
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, p {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#profile {
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+}
+
+body {
+	background-color: #BCA96C;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23af9350' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%238e7347' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23a88f51' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23987b4a' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23a28b52' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23a2824d' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%239b8753' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23ac8a4f' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23958353' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23b79252' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%238f7f54' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23c19a55' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#landing {
+	height: 80vh;
+	display:  flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
